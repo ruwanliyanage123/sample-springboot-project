@@ -8,6 +8,6 @@ import java.util.List;
 @Service
 public interface EmployeeServiceAPI {
     public abstract List<Employee> getAllEmployee();
-    public abstract void deleteEmployee();
-    public abstract void addEmployee();
+    public abstract void deleteEmployee(Long empId);
+    public abstract void addEmployee(Employee employee);
 }
